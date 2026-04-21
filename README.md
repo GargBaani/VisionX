@@ -218,8 +218,10 @@ MIT
 ## ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
-<img width="511" height="584" alt="image" src="https://github.com/user-attachments/assets/cabd3b65-224f-4671-8aa4-621692261086" />
-<img width="493" height="584" alt="image" src="https://github.com/user-attachments/assets/54f7ad6a-9377-46cb-91e4-74f9f0a1151f" />
-<img width="488" height="584" alt="image" src="https://github.com/user-attachments/assets/5199cde3-84dd-45d7-9b04-4897ca1e8b4a" />
-<img width="488" height="584" alt="image" src="https://github.com/user-attachments/assets/fa80c08a-968b-42a3-9455-f7c3ebbed0ec" />
+<img width="500" height="472" alt="image" src="https://github.com/user-attachments/assets/eb89302a-9ab5-4b0b-85e0-028536a458b3" />
+<img width="484" height="550" alt="image" src="https://github.com/user-attachments/assets/a5a9555b-5904-4b3d-8e50-e73ef8d0260c" />
+<img width="495" height="746" alt="image" src="https://github.com/user-attachments/assets/38c1e913-14c8-43ed-813c-3adce0121642" />
+<img width="474" height="210" alt="image" src="https://github.com/user-attachments/assets/97f87b0b-0013-43ef-af96-b49426aeeb17" />
+
+
 
