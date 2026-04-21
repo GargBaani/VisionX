@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at top left, rgba(217, 243, 239, 0.9), transparent 34%),
+      linear-gradient(180deg, #f7f3ea 0%, #fffdf9 100%);
+    color: #12263a;
+    font-family: "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  }
+
+  button,
+  input,
+  select {
+    font: inherit;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply relative rounded-[24px] border border-slate-200/80 bg-white/90 shadow-soft backdrop-blur;
+  }
+
+  .metric-card {
+    @apply flex flex-col rounded-[20px] border border-slate-200/80 bg-slate-50/95 px-4 py-3 text-center;
+  }
+
+  .metric-label {
+    @apply text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500;
+  }
+
+  .metric-value {
+    @apply mt-2 text-2xl font-semibold text-slate-900;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full bg-vision-sea px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-vision-teal;
+  }
+
+  .action-button {
+    @apply rounded-2xl border border-vision-teal bg-vision-teal px-4 py-3 text-sm font-semibold text-white transition hover:bg-teal-700 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .action-button-secondary {
+    @apply rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-800 transition hover:border-vision-teal hover:text-vision-teal;
+  }
+}
